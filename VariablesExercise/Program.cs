@@ -15,6 +15,11 @@
 
             Console.WriteLine($"Is {personName} with an age of {personAge}\n" +
                 "older than you?");
+            Console.WriteLine($"First letter of Name starts with {personFirstName}. Last letter of Name starts with {personLastName}.\n");
+            Console.WriteLine($"Person is old: {personAgeOld}");
+            Console.WriteLine($"His age is {myAge}");
+
         }
+
     }
 }
