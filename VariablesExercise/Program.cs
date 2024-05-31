@@ -4,7 +4,17 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            string personName = "Douglas";
+            int personAge = 47;
+            char personFirstName = 'D';
+            char personLastName = 'B';
+            bool personAgeOld = true;
+            double myAge = 47.1;
+            decimal myAgeD = 47.1m;
+
+
+            Console.WriteLine($"Is {personName} with an age of {personAge}\n" +
+                "older than you?");
         }
     }
 }
